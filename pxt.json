@@ -1,15 +1,18 @@
 {
-    "name": "20210814Test2",
+    "name": "20210814Test3",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "20210813Github": "github:joeada/20210813github#master",
+        "main": "pkg:main.json"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.json"
     ],
     "testFiles": [
         "test.ts"

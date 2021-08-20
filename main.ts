@@ -2,11 +2,11 @@ radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 0) {
         motor.motorStopAll()
         basic.showLeds(`
-            # . . . #
+            . # # # #
+            # . . # .
             . # . # .
-            . . # . .
-            . # . # .
-            # . . . #
+            . . # # .
+            # # . # .
             `)
     } else if (receivedNumber == 1) {
         motor.MotorRun(motor.Motors.M1, motor.Dir.CW, 70)

@@ -1,4 +1,5 @@
 radio.onReceivedNumber(function (receivedNumber) {
+    basic.showNumber(receivedNumber)
     if (receivedNumber == 0) {
         motor.motorStopAll()
         basic.showLeds(`
@@ -67,7 +68,7 @@ let MaxSpeed = 0
 let Motor_C_Status = 0
 let Motor_B_Status = 0
 let Motor_A_Status = 0
-basic.showString("Motor")
+basic.showString("MT")
 radio.setGroup(255)
 Motor_A_Status = 1
 Motor_B_Status = 1

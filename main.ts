@@ -67,7 +67,7 @@ let Motor_C_Status = 0
 let Motor_B_Status = 0
 let Motor_A_Status = 0
 basic.showString("Motor")
-radio.setGroup(255)
+radio.setGroup(100)
 Motor_A_Status = 1
 Motor_B_Status = 1
 Motor_C_Status = 1
